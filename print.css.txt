@@ -1,0 +1,105 @@
+/* Sam's CSS Print File */
+
+
+
+Body {
+	font-family: serif;
+	font-size: 12pt;
+	line-height: 1.5;
+      }
+
+h1, h2, h3 { font-family: georgia, garamond, serif ;
+              font-weight: normal ; }
+
+h1 { font-size: 160% ; }
+
+h2 { font-size: 130% ; } 
+
+h3 { font-size: 120% ; }
+
+p, h1, h2, h3, ol, ul { margin-top: 0;
+                        margin-bottom: 1px; }
+
+ol { padding-left: 0;
+     margin-left: 30px; }
+
+img {padding: 4px; 
+     border: 1px solid black; 
+     background-color: white ; }
+
+a { color: #fff5e8;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid #898989;
+    padding-bottom: 1px; }
+
+a:visited {color: #4a2885; }
+
+a:hover, a:focus, a:active {background-color: #fff5e8;
+                             color: #800080;
+                             border-bottom-color: #fdebcf; }
+
+div#wrapper {  width: 800px; 
+               margin-left: auto;
+               margin-right: auto;
+               margin-top: 10px;
+               margin-bottom: 10px;
+               }
+
+article { 
+         width: 500px;
+         padding-left: 10px; }
+
+nav {display:none;
+    } 
+
+footer { clear: both; 
+        padding: 10px; 
+        font-size: 75%; 
+        height: 1% ;
+        background-color: #0000ff ;
+        color: #ffffff ;
+        border-top: 2px dotted #464646; }
+
+
+nav ul {list-style-type: none; 
+        border: 1px solid #aabadd; 
+        margin-left: 0;
+        padding-left: 5px;
+        border-bottom: none;
+        display: block; 
+        line-height: 2;
+        height: 1% ; }
+
+nav a:hover {background-color: white; }
+
+footer a:link {color: white; } 
+
+footer a:hover, footer a:focus,footer a:active {background-color: transparent; 
+                                                  border: none; }
+
+table { border: 1px solid black;} 
+ 
+caption {display: none; }
+
+thread {color: white; 
+        background-color: #cccccc; 
+        text-align: left; }
+
+tbody {font-family: georgia, "times new roman", serif;
+       font-size: 90%; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         

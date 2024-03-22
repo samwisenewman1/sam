@@ -1,0 +1,120 @@
+/* Sam's CSS File */
+
+
+
+Body {
+	font-family: verdana, arial, sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	background: white url(images/grass.jpg) ;
+      }
+
+h1, h2, h3 { font-family: georgia, garamond, serif ;
+              font-weight: normal ; }
+
+h1 { font-size: 160% ; }
+
+h2 { font-size: 130% ; } 
+
+h3 { font-size: 120% ; }
+
+p, h1, h2, h3, ol, ul { margin-top: 0;
+                        margin-bottom: 1px; }
+
+ol { padding-left: 0;
+     margin-left: 30px; }
+
+img {padding: 4px; 
+     border: 1px solid black; 
+     background-color: white ; }
+
+a { color: #fff5e8;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid #898989;
+    padding-bottom: 1px; }
+
+a:visited {color: #4a2885; }
+
+a:hover, a:focus, a:active {background-color: #fff5e8;
+                             color: #800080;
+                             border-bottom-color: #fdebcf; }
+
+div#wrapper {  width: 800px; 
+               margin-left: auto;
+               margin-right: auto;
+               margin-top: 10px;
+               margin-bottom: 10px;
+               background-color: #eb8793;
+               background-repeat: repeat-y ; 
+               background-position: left top;
+               background-attachment: scroll;
+               border: 2px dotted black; }
+
+header { height: 180px ;
+         margin-bottom: 20px; }
+
+header h1, header p { text-indent: -9999999999999px; }
+
+.home header  {background: white url(images/background.png) no-repeat; }
+
+article {float: left ; 
+         width: 500px;
+         padding-left: 10px; }
+
+nav {float: right;
+     width: 200px;
+     padding-right: 5px; } 
+
+footer { clear: both; 
+        padding: 10px; 
+        font-size: 75%; 
+        height: 1% ;
+        background-color: #0000ff ;
+        color: #ffffff ;
+        border-top: 2px dotted #464646; }
+
+
+nav ul {list-style-type: none; 
+        border: 1px solid #aabadd; 
+        margin-left: 0;
+        padding-left: 5px;
+        border-bottom: none;
+        display: block; 
+        line-height: 2;
+        height: 1% ; }
+
+nav a:hover {background-color: white; }
+
+footer a:link {color: white; } 
+
+footer a:hover, footer a:focus,footer a:active {background-color: transparent; 
+                                                  border: none; }
+
+table { border: 1px solid black;} 
+ 
+caption {display: none; }
+
+thread {color: white; 
+        background-color: #cccccc; 
+        text-align: left; }
+
+tbody {font-family: georgia, "times new roman", serif;
+       font-size: 90%; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
